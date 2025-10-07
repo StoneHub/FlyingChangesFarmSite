@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "your-firebase-project-id"
-  }
+    "default": "possible-haven-471616-f0",
+    "FlyingChangesFarmSite": "possible-haven-471616-f0"
+  },
+  "targets": {},
+  "etags": {}
 }
