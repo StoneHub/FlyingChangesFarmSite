@@ -1,78 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="e            <nav class="site-nav" id="primary-navigation" aria-label="Primary">
+                <a href="index.html">Farm Home</a>
+                <a href="camp.html">Stay Here</a>
+                <a href="about.html">About</a>
+                <a href="apps.html" aria-current="page">StoneCode Projects</a>
+            </nav>>
     <meta charset="UTF-8">
-    <meta name="viewpo        <section class="page-hero">
-            <div class="container">
-                <h1>StoneCode Projects</h1>
-                <p>Software experiments from the hangar office at Flying Changes Farm. GitHub activity updates live, tracking routing tools, care coordination apps, and recovery planning utilities built between farm chores and paramotor flights.</p>
-                <div class="hero-actions">
-                    <a class="button" href="https://github.com/StoneHub" target="_blank" rel="noreferrer">View GitHub Profile</a>
-                </div>
-                <ul class="pill-list">
-                    <li>Routing &amp; Mapping</li>
-                    <li>Care Coordination</li>
-                    <li>Recovery Planning</li>
-                    <li>Legacy Apps</li>
-                </ul>
-            </div>
-        </section>dth=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Track software projects built at Flying Changes Farm in Marietta, South Carolina. Watch GitHub commits in real time and read about PickMyRoute, Care Calendar, and legacy tools.">
-    <title>StoneCode Projects · Flying Changes Farm</title>
+    <title>Apps &amp; Code · Flying Changes Farm</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
-    <style>
-        /* StoneCode Projects styling - distinct from farm aesthetic */
-        .apps-page {
-            --color-primary: #2563eb;
-            --color-code-bg: #1e293b;
-        }
-        .apps-page .site-header {
-            background-color: rgba(30, 41, 59, 0.98);
-            border-bottom: 1px solid rgba(37, 99, 235, 0.2);
-        }
-        .apps-page .branding {
-            color: #e2e8f0;
-        }
-        .apps-page .branding svg {
-            color: #60a5fa;
-        }
-        .apps-page .site-nav a {
-            color: #cbd5e1;
-        }
-        .apps-page .site-nav a:hover,
-        .apps-page .site-nav a[aria-current] {
-            color: #60a5fa;
-        }
-        .apps-page .page-hero {
-            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-            color: #e2e8f0;
-        }
-        .apps-page .page-hero h1 {
-            color: #f1f5f9;
-        }
-        .apps-page .button {
-            background: #2563eb;
-            font-family: "Inter", sans-serif;
-        }
-        .apps-page .button:hover {
-            background: #1d4ed8;
-        }
-        .apps-page .pill-list li {
-            background-color: rgba(37, 99, 235, 0.15);
-            color: #93c5fd;
-            font-family: "Inter", sans-serif;
-        }
-        .apps-page main {
-            font-family: "Inter", sans-serif;
-        }
-        .apps-page .section-title {
-            color: #1e293b;
-            font-family: "Inter", sans-serif;
-        }
-    </style>
 </head>
 <body class="apps-page">
     <header class="site-header">
@@ -83,7 +23,7 @@
                         <path d="M20.92 8.78a1 1 0 0 0-.82-.78l-4.21-.61-1.89-3.82a1 1 0 0 0-1.8 0L10.31 7.4l-4.21.61a1 1 0 0 0-.82.78 1 1 0 0 0 .29 1L8 13.06l-.72 4.19a1 1 0 0 0 1.45 1L12 16.77l3.27 1.72a1 1 0 0 0 1.45-1l-.72-4.19 3.45-3.28a1 1 0 0 0 .29-1z"/>
                     </svg>
                 </span>
-                <span>StoneCode Projects</span>
+                <span>Flying Changes Farm</span>
             </a>
             <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
                 <svg viewBox="0 0 24 24" fill="currentColor">
@@ -92,10 +32,13 @@
                 <span>Menu</span>
             </button>
             <nav class="site-nav" id="primary-navigation" aria-label="Primary">
-                <a href="index.html">Farm Home</a>
+                <a href="index.html#experience">Experience</a>
                 <a href="camp.html">Camping</a>
-                <a href="about.html">About Farm</a>
-                <a href="apps.html" aria-current="page">Projects</a>
+                <a href="horses.html">Horses</a>
+                <a href="pinnacle.html">Pinnacle Paramotor</a>
+                <a href="apps.html" aria-current="page">Apps</a>
+                <a href="about.html">About</a>
+                <a href="index.html#contact">Contact</a>
             </nav>
         </div>
     </header>
