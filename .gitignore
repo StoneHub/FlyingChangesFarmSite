@@ -10,6 +10,9 @@ firebase-debug.log
 firebase-debug.*.log
 .firebaserc.local
 
+# CLI caches
+.config/
+
 # OS
 .DS_Store
 Thumbs.db
