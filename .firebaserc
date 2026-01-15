@@ -3,6 +3,14 @@
     "default": "possible-haven-471616-f0",
     "FlyingChangesFarmSite": "possible-haven-471616-f0"
   },
-  "targets": {},
+  "targets": {
+    "possible-haven-471616-f0": {
+      "hosting": {
+        "fcf-main": [
+          "possible-haven-471616-f0"
+        ]
+      }
+    }
+  },
   "etags": {}
 }

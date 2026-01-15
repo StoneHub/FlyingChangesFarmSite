@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "fcf-main",
     "public": "public",
     "ignore": [
       "firebase.json",
