@@ -13,6 +13,10 @@ firebase-debug.*.log
 # CLI caches
 .config/
 
+# Backup files
+*.backup
+*.orig
+
 # OS
 .DS_Store
 Thumbs.db

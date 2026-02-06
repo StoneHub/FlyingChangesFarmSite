@@ -97,15 +97,23 @@ function initSharedComponents() {
     document.body.prepend(createHeader());
     document.body.append(createFooter());
 
-    // Re-initialize menu toggle since we replaced the DOM
+    // Initialize menu toggle
     const menuToggle = document.querySelector('.menu-toggle');
     const nav = document.querySelector('.site-nav');
 
     if (menuToggle && nav) {
         menuToggle.addEventListener('click', () => {
-            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
-            menuToggle.setAttribute('aria-expanded', !isExpanded);
-            nav.classList.toggle('is-open');
+            const isOpen = nav.classList.toggle('is-open');
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+            document.body.classList.toggle('nav-open', isOpen);
+        });
+
+        nav.addEventListener('click', (event) => {
+            if (event.target.tagName === 'A') {
+                nav.classList.remove('is-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                document.body.classList.remove('nav-open');
+            }
         });
     }
 }
